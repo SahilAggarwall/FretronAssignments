@@ -111,9 +111,5 @@ function updateRule() {
 
     createRuleForMember(memberType, newRule);
 }
-
-// Populate default rules table
 populateTable('defaultTable', getDefaultRules());
-
-// Populate updated rules table initially with the same data as default
 populateTable('updatedTable', getAllCurrentRules());
